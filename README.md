@@ -2,7 +2,7 @@
 Team (Individual)
 Taylor Bart<br>
 September 5-6, 2020<br>
-[RAT CTF '20 Write Up](https://github.com/tbart27/ratctf_writeup/edit/master/README.md)
+[RAT CTF '20 Write Up](https://github.com/tbart27/ratctf_writeup)
 
 ## Overview
 It was exciting to particpate in my first CTF event! I ended up choosing RAT CTF due to my experience in web development and since it was mentioned that this would be an easier CTF. Unfortunately, I was unable to retrieve any flags from this CTF but it was fun to learn about the different injection exploits such as XXE, XSS, and SSTI attacks. During the ctf, I spent most of my time trying to implement an XSS attacks on every input on the site, then I moved on to looking for vulnerable network ports with nmap, and finally tried to implement XXE and SSTI attacks on the website among other miscellaneous attacks that were hinted about in the discord channels.
