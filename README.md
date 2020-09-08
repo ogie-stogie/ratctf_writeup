@@ -10,4 +10,4 @@ First I downloaded all the html’s that I could access so I could read and thin
 I searched for any get methods so I could attack via the URL parameters, however none were found on the site.
 I used nmap to see what ports were open (22/tcp, 80/tcp, 3000/tcp)
 
-![img1]()
+![](https://github.com/tbart27/ratctf_writeup/blob/master/Screenshot%20from%202020-09-07%2008-44-39.png)
