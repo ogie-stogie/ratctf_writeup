@@ -1,9 +1,10 @@
 # CSE 466: RAT CTF '20 Writeup
+Team (Individual)
 Taylor Bart<br>
 September 5-6, 2020
 
 ## Overview
-It was exciting to particpate in my first CTF event! I ended up choosing RAT CTF due to my experience in web development and since it was mentioned that this would be an easier CTF. Unfortunately, I was unable to retrieve any flags from this CTF but it was fun to learn about the different injection exploits such as XXE, XSS, and SSTI attacks. During the ctf, I spent the first half of my time trying to implement an XSS attack, then I moved on to looking for vulnerable network ports with nmap, and finally tried to implement XXE and SSTI attacks on the website.
+It was exciting to particpate in my first CTF event! I ended up choosing RAT CTF due to my experience in web development and since it was mentioned that this would be an easier CTF. Unfortunately, I was unable to retrieve any flags from this CTF but it was fun to learn about the different injection exploits such as XXE, XSS, and SSTI attacks. During the ctf, I spent the first half of my time trying to implement an XSS attack, then I moved on to looking for vulnerable network ports with nmap, and finally tried to implement XXE and SSTI attacks on the website among other miscellaneous attacks that were hinted about in the discord channels.
 
 ## Information gathering
 After reading the information for this event, I knew I would have to focus on XSS and XXE attacks. I then downloaded all the html’s that I could access so I could read and think about potential attack vectors. I noted every input across the site and wrote them down for later injection testing. Further, I used nmap to see what connections were open and my focus was on creating an ssh to the server so that I could map out the inner file system and search for methods to escalate my command's privildges.
@@ -33,5 +34,3 @@ Since the URL used some get methods, I tried various injections into the variabl
 
 ## SSTI attacks and jwt.io
 After the CTF, XSS Rat left some hints about using SSTI (server-side template injection) to retrieve information about the site! Since I was more familiar with building websites with browser-side interactions in mind, I never thought to look for server side injections. I spent my last hour researching SSTI theory and testing some examples to see what I could return. In the end, it seemed like I repeated the original XSS attacks but with linux server commands, but I was unable to escape the strings and make the code executable. Currently, I am still going over the site and looking into hints about jwt.io tokens.
-
-## Summary
