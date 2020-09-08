@@ -8,6 +8,17 @@ Unfortunately, I was unable to retrieve any flags from this CTF but it was fun t
 ## Information gathering
 First I downloaded all the html’s that I could access so I could read and think about potential attack vectors.
 I searched for any get methods so I could attack via the URL parameters, however none were found on the site.
-I used nmap to see what ports were open (22/tcp, 80/tcp, 3000/tcp)
 
+## Looking for vulnerable ports
+I used nmap to see what ports were open (22/tcp, 80/tcp, 3000/tcp)
+I tried using scp over ports 22, 80, 3000 to see if I could return the directory listing to my machine.
 ![](https://github.com/tbart27/ratctf_writeup/blob/master/Screenshot%20from%202020-09-07%2008-44-39.png)
+
+## XSS attacks
+
+## XXE attacks
+
+## SSTI attacks
+
+## jwt.io
+
