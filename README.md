@@ -1,7 +1,7 @@
 # CSE 466: RAT CTF '20 Writeup
 Team (Individual)
 Taylor Bart<br>
-September 5-6, 2020
+September 5-6, 2020<br>
 [RAT CTF '20 Write Up](https://github.com/tbart27/ratctf_writeup/edit/master/README.md)
 
 ## Overview
